@@ -15,10 +15,11 @@ while (endX<300)
 	{
 		endX=startX + (int)(Math.random()*9);
 		endY=startY + (int)(Math.random()*18)-9;
+		startX=endX;
+		startY=endY;
 		line(startX,startY,endX,endY);
 	}
-startX=endX;
-startY=endY;
+
 }
 void mousePressed()
 {
