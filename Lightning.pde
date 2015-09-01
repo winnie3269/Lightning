@@ -22,7 +22,7 @@ startY=endY;
 }
 void mousePressed()
 {
- redraw()
+ redraw();
  {
  	startX=0;
  	startY=150;
