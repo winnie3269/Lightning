@@ -2,7 +2,7 @@
  int startY=150;
  int endX=0;
  int endY=150;
-oid setup()
+void setup()
 {
   size(300,300);
   strokeWeight(5);
