@@ -19,7 +19,6 @@ while (endX<300)
 	startY=endY;
 	line(startX,startY,endX,endY);
 	}
-
 }
 void mousePressed()
 {
