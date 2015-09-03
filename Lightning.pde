@@ -2,11 +2,16 @@
  int startY=150;
  int endX=0;
  int endY=150;
+ //PImage myImage;
+ //PImage newImage;
 void setup()
 {
   size(300,300);
   strokeWeight(5);
   background(0);
+  //myImage=loadImage(filename);
+  //newImage= newImage(myImage.width, myImage.height)
+  //image(myImage,0,0);
 }
 void draw()
 {
